@@ -194,4 +194,8 @@ people.friends[0] = nonso;
 people.friends[1] = arinze;
 people.friends[2] = none;
 
-console.log(people.friends)
+//An alternate method to the above
+//more preferred cos its clean
+people.friends.push(nonso, arinze, none)
+
+console.log(people)
