@@ -132,4 +132,33 @@ lastIndex
 newCart
 
 
+//Objects in Js
 
+let myCar = {
+  make: 'Honda',
+  model: 2019,
+  drive: '4wd',
+  color: 'Blue',
+  fullOwnership: true,
+  amount: 34200,
+  weight: 400,
+  forSale: false,
+}
+
+let propColor = 'color';
+propColor
+
+
+myCar.propColor = 'red';
+propColor
+
+propColor = 'forSale';
+propColor
+
+myCar.propColor = true;
+propColor
+
+console.log(myCar.make + ' ' + myCar.model + ' ' + myCar.propColor);
+console.log(myCar.forSale);
+
+myCar
