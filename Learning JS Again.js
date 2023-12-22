@@ -1,4 +1,4 @@
-
+/*THIS CODE WAS WRITTEN WITH QUOKKA EXTENSION */
 
 ///ADDING AND REPLACING ELEMENTS IN ARRAY//
 //Elements can be added with push method
@@ -199,3 +199,36 @@ people.friends[2] = none;
 people.friends.push(nonso, arinze, none)
 
 console.log(people)
+
+
+/*COMPANY PRODUCT CATALOGUE*/
+//1. Create an empty array
+let storeInventory = [];
+//2. Create 3 items with the specified properties
+let itemOne = {
+  name: 'Patek Watch',
+  model: 2023,
+  cost: 200,
+  quantity: 5 ,
+}
+
+let itemTwo = {
+  name: 'Casio Watch',
+  model: 2031,
+  cost: 290,
+  quantity: 52
+}
+
+let itemThree = {
+  name: 'Shoe',
+  model: 2019,
+  cost: 50,
+  quantity: 12,
+}
+//3. Add all 3 items to the main array using an array method and log to console
+storeInventory.push(itemOne, itemTwo, itemThree);
+console.log(storeInventory)
+
+//4.Access the quantity element of the third item.
+let thirdItem = storeInventory[2].quantity 
+console.log(thirdItem)
