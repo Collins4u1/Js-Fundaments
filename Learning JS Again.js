@@ -161,4 +161,37 @@ propColor
 console.log(myCar.make + ' ' + myCar.model + ' ' + myCar.propColor);
 console.log(myCar.forSale);
 
-myCar
+
+
+
+
+let people = {
+  friends: [
+
+  ]
+}
+
+let nonso = {
+  FName: 'Nonso',
+  LName: 'Anyaebosi',
+  ID: 24
+};
+
+let arinze = {
+  Fname: 'Arinze',
+  LName: 'Anyaebosi',
+  ID: 25,
+}
+
+let none = {
+  Fname: 'Amadi',
+  Lname: 'Oats',
+  ID: 26
+};
+
+
+people.friends[0] = nonso;
+people.friends[1] = arinze;
+people.friends[2] = none;
+
+console.log(people.friends)
