@@ -230,5 +230,5 @@ storeInventory.push(itemOne, itemTwo, itemThree);
 console.log(storeInventory)
 
 //4.Access the quantity element of the third item.
-let thirdItem = storeInventory[2].quantity 
+let thirdItem = storeInventory[0].quantity 
 console.log(thirdItem)
