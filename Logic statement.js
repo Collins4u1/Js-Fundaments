@@ -73,3 +73,56 @@ let id = true;
 let idMessage = id ? 'your identity is verified' : 'you wont be allowed to go in'
 
 console.log(idMessage)
+
+
+/*SWITCH STATEMENT */
+/*
+switch(expression) {
+  case value1:
+    //code to be executed
+    break;
+  case value2:
+    //code to be executed
+    break;
+  case value-n:
+    //code to be executed
+    break;
+  default:
+    //case to be executed when no case match
+}
+*/
+
+let randomNum = Math.random();
+randomNum = randomNum * 6;
+random = Math.floor(randomNum);
+randomNum
+random
+
+let userMsg = 'what is your score?';
+let msg;
+switch (random) {
+  case 0:
+      msg = 'your score is zero';
+    break;
+  case 1:
+      msg = 'Your score is one';
+    break;
+  case 2:
+      msg = 'Your number is two';
+    break;
+  case 3:
+      msg = 'your score is three'
+    break;
+  case 4:
+      msg = 'you have score four'
+    break;
+  case 5:
+      msg = 'you have scored five'
+    break;    
+  default:
+      msg = 'try again'
+    break;
+}
+console.log(msg);
+
+console.log(userMsg + ' ' + msg)
