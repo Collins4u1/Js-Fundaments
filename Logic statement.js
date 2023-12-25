@@ -36,9 +36,9 @@ if (age < 3) {
 console.log('your total cost '+cost);
 console.log(message);
 
+
+
 /*EXERCISE*/
-
-
 
 let userInput = '50'
 console.log(typeof userInput) 
@@ -59,3 +59,17 @@ if (inputNum >= 21) {
 }
 
 console.log(conMsg);
+
+
+/* CONDITIONAL TERNARY OPERATOR */
+
+// operand1 ? operand2 : operand3;
+// if operand1 is true, then execute operand2 else executeb operand3
+//example
+let access = age < 18 ? 'denied' : 'allowed';
+
+
+let id = true;
+let idMessage = id ? 'your identity is verified' : 'you wont be allowed to go in'
+
+console.log(idMessage)
