@@ -3,7 +3,7 @@
 //Conditional Tenary Operators
 //Switch statements
 
-/*IF AND IF ELSE STATMENTS */
+/*IF AND  ELSE STATMENTS */
 let hobby = 'dancing';
 
 if (hobby == 'coding'){

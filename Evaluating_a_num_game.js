@@ -29,16 +29,16 @@ let friendNames = ['Amaka','Henry','Uchenna','Ria','Kingsley'];
 
 //prompt for a name
 //let userOneInput = prompt('Please enter a name');
-let userOneInput = friendNames[0];
-userOneInput
+let userOneInput = 'Joe';
+
 
 switch (userOneInput) {
-  case 'Amaka':
+  case friendNames[0]:
   case 'Henry':
   case 'Ria':
   case 'Uchenna':
   case 'Kingsley':      
-  console.log('I know him; he is my friend');
+  console.log('I know him; he is my friend, his name is' + ' ' + userOneInput);
     break;
   default:
     console.log('I do not know this person');
