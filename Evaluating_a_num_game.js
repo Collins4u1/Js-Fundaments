@@ -19,5 +19,33 @@ if (userInput > randNum) {
 }
 
 
+//FRIEND CHECKER GAME
+/*Ask the user to enter a name, using the switch statement to return a confirmation that the user is a friend
+if the name selected is known in the case statements. you can add a default response that  you don't know the
+person if it's an unknown name. out the result into the console.*/
+
+//create arrays for friends name
+let friendNames = ['Amaka','Henry','Uchenna','Ria','Kingsley'];
+
+//prompt for a name
+//let userOneInput = prompt('Please enter a name');
+let userOneInput = friendNames[0];
+userOneInput
+
+switch (userOneInput) {
+  case 'Amaka':
+  case 'Henry':
+  case 'Ria':
+  case 'Uchenna':
+  case 'Kingsley':      
+  console.log('I know him; he is my friend');
+    break;
+  default:
+    console.log('I do not know this person');
+    break;
+}
+
+
+
 
 
